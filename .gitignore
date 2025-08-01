@@ -1,0 +1,84 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Compiled Object files
+*.obj
+*.o
+*.lo
+*.slo
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.dll
+*.dylib
+*.so
+
+# For Unreal Engine 4 and 5 projects
+# Ignore Binaries and Intermediate folders
+[Bb]inaries/
+[Ii]ntermediate/
+[Ss]aved/
+.ensime_cache/
+.vscode/
+
+# Ignore derived data cache
+DerivedDataCache/
+
+# Ignore build folders
+Build/
+
+# Ignore Mac specific files
+.DS_Store
+
+# Ignore backup files
+*.bak
+*.tmp
+*.orig
+*.log
+
+# Ignore the local user config
+*.local
+
+# Ignore project-specific files
+*.opensdf
+*.sdf
+*.sln
+*.suo
+*.tmp
+*.cache
+*.pdb
+*.idb
+
+# Ignore Unreal auto-generated files
+*.xcodeproj
+*.xcworkspace
+
+# Ignore crash reports
+CrashReportClient/Saved/
+
+# Optional: Ignore if using Rider
+.idea/
+*.iml
+
+# Optional: Ignore if using Perforce
+.vs/
+
+# Optional: Ignore if using CLion
+cmake-build-*/
+
+# Optional: Ignore if using JetBrains Rider
+.vscode/
+.idea/
+
+# Optional: Ignore generated plugins and mods
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
